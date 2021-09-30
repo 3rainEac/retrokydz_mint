@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/retrokydz_mint/static/css/main.4145f6aa.chunk.css",
-    "main.js": "/retrokydz_mint/static/js/main.846c3570.chunk.js",
-    "main.js.map": "/retrokydz_mint/static/js/main.846c3570.chunk.js.map",
+    "main.js": "/retrokydz_mint/static/js/main.7668c0ab.chunk.js",
+    "main.js.map": "/retrokydz_mint/static/js/main.7668c0ab.chunk.js.map",
     "runtime-main.js": "/retrokydz_mint/static/js/runtime-main.707b4e5a.js",
     "runtime-main.js.map": "/retrokydz_mint/static/js/runtime-main.707b4e5a.js.map",
     "static/js/2.213d8c7f.chunk.js": "/retrokydz_mint/static/js/2.213d8c7f.chunk.js",
@@ -13,12 +13,12 @@
     "static/css/main.4145f6aa.chunk.css.map": "/retrokydz_mint/static/css/main.4145f6aa.chunk.css.map",
     "static/js/2.213d8c7f.chunk.js.LICENSE.txt": "/retrokydz_mint/static/js/2.213d8c7f.chunk.js.LICENSE.txt",
     "static/media/reset.css": "/retrokydz_mint/static/media/PressStart2P-Regular.f2341734.woff",
-    "static/media/RetroKydz_logo.7e4c539f.png": "/retrokydz_mint/static/media/RetroKydz_logo.7e4c539f.png"
+    "static/media/RetroKydz_logo_white.6e784d82.png": "/retrokydz_mint/static/media/RetroKydz_logo_white.6e784d82.png"
   },
   "entrypoints": [
     "static/js/runtime-main.707b4e5a.js",
     "static/js/2.213d8c7f.chunk.js",
     "static/css/main.4145f6aa.chunk.css",
-    "static/js/main.846c3570.chunk.js"
+    "static/js/main.7668c0ab.chunk.js"
   ]
 }
