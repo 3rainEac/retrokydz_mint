@@ -101,7 +101,7 @@ function App() {
     <s.Screen style={{ backgroundColor: "#f9fdc9" }}>
       <s.Container flex={1} ai={"center"} style={{ padding: 12 }}>
         <s.TextTitle
-          style={{ textAlign: "center", fontSize: 36, fontWeight: "bold" }}
+          style={{ textAlign: "center", fontSize: 36, fontWeight: "bold", fontColor: "ffffff" }}
         >
           The Retro Kydz NFT Collection
           

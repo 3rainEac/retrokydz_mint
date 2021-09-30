@@ -51,7 +51,7 @@ export const Container = styled.div`
 `;
 
 export const TextTitle = styled.p`
-  color: var("ffffff");
+  color: "ffffff";
   font-size: 30px;
   font-weight: 500;
   line-height: 1.6;
