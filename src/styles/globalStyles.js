@@ -57,14 +57,15 @@ export const TextTitle = styled.p`
   line-height: 1.6;
 `;
 
+// for white use: color: var(--white);
 export const TextSubTitle = styled.p`
-  color: var(--white);
+  color: "ffffff";
   font-size: 14px;
   line-height: 1.6;
 `;
 
 export const TextDescription = styled.p`
-  color: var(--white);
+  color: "ffffff";
   font-size: 18px;
   line-height: 1.6;
 `;
