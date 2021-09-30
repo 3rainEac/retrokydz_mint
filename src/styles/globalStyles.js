@@ -51,7 +51,7 @@ export const Container = styled.div`
 `;
 
 export const TextTitle = styled.p`
-  color: "ffffff";
+  color: var(--white);
   font-size: 30px;
   font-weight: 500;
   line-height: 1.6;
@@ -59,13 +59,13 @@ export const TextTitle = styled.p`
 
 // for white use: color: var(--white);
 export const TextSubTitle = styled.p`
-  color: "ffffff";
+  color: var(--white);
   font-size: 14px;
   line-height: 1.6;
 `;
 
 export const TextDescription = styled.p`
-  color: "ffffff";
+  color: var(--white);
   font-size: 18px;
   line-height: 1.6;
 `;
