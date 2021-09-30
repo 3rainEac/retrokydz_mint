@@ -131,10 +131,10 @@ function App() {
                 </s.TextTitle>
                 <s.SpacerSmall />
                 <s.TextDescription style={{ textAlign: "center" }}>
-                  You can still buy and trade TBC NFTs on{" "}
+                  You can still buy and trade Retro Kydz NFTs on{" "}
                   <a
                     target={""}
-                    href={"https://opensea.io/collection/the-bee-collaborative"}
+                    href={"https://opensea.io/collection/retrokydz"}
                   >
                     Opensea.io
                   </a>
@@ -143,7 +143,7 @@ function App() {
             ) : (
               <>
                 <s.TextTitle style={{ textAlign: "center" }}>
-                  1 Bee NFT costs .02 ETH
+                  1 Retro Kidz NFT costs .01 ETH
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription style={{ textAlign: "center" }}>
