@@ -118,6 +118,11 @@ function App() {
             </s.TextTitle>
           </s.Container>
           <s.SpacerMedium />
+          <s.TextTitle
+              style={{ textAlign: "center", fontSize: 26, fontWeight: "bold" }}
+            >
+              {data.totalSupply} of 10,000 have been minted
+          </s.TextTitle>
           <s.Container
             flex={1}
             jc={"center"}
