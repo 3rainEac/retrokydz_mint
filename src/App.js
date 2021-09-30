@@ -4,7 +4,7 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
-import i1 from "./assets/images/RetroKydz_logo.png";
+import i1 from "./assets/images/RetroKydz_logo_white.png";
 
 export const StyledButton = styled.button`
   padding: 10px;
@@ -98,7 +98,7 @@ function App() {
   }, [blockchain.account]);
 
   return (
-    <s.Screen style={{ backgroundColor: "#f9fdc9" }}>
+    <s.Screen style={{ backgroundColor: "#000000" }}>
       <s.Container flex={1} ai={"center"} style={{ padding: 12 }}>
         <s.TextTitle
           style={{ textAlign: "center", fontSize: 36, fontWeight: "bold"}}
@@ -118,11 +118,6 @@ function App() {
             </s.TextTitle>
           </s.Container>
           <s.SpacerMedium />
-          <s.TextTitle
-              style={{ textAlign: "center", fontSize: 26, fontWeight: "bold" }}
-            >
-              {data.totalSupply} of 10,000 have been minted
-          </s.TextTitle>
           <s.Container
             flex={1}
             jc={"center"}
