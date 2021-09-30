@@ -122,7 +122,7 @@ function App() {
             flex={1}
             jc={"center"}
             ai={"center"}
-            style={{ backgroundColor: "#f9fdc9", padding: 12 }}
+            style={{ backgroundColor: "#ffffff", padding: 12 }}
           >
             {Number(data.totalSupply) == 10000 ? (
               <>
