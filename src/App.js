@@ -98,7 +98,7 @@ function App() {
   }, [blockchain.account]);
 
   return (
-    <s.Screen style={{ backgroundColor: "var(--black)" }}>
+    <s.Screen style={{ backgroundColor: "#f9fdc9" }}>
       <s.Container flex={1} ai={"center"} style={{ padding: 12 }}>
         <s.TextTitle
           style={{ textAlign: "center", fontSize: 36, fontWeight: "bold" }}
@@ -122,7 +122,7 @@ function App() {
             flex={1}
             jc={"center"}
             ai={"center"}
-            style={{ backgroundColor: "#3490eb", padding: 12 }}
+            style={{ backgroundColor: "#f9fdc9", padding: 12 }}
           >
             {Number(data.totalSupply) == 10000 ? (
               <>
