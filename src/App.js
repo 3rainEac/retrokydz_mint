@@ -5,6 +5,7 @@ import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
 import i1 from "./assets/images/RK_homepage_gif.png";
+import i2 from "./assets/images/RetroKydz_logo.png";
 
 export const StyledButton = styled.button`
   padding: 10px;
@@ -63,7 +64,7 @@ function App() {
     if (_amount <= 0) {
       return;
     }
-    setFeedback("Preparing your Retro Kydz NFT...");
+    setFeedback("Preparing your Retro Kydz NFT for adoption...");
     setClaimingNft(true);
     blockchain.smartContract.methods
       .mint(blockchain.account, _amount)
@@ -80,7 +81,7 @@ function App() {
       })
       .then((receipt) => {
         setFeedback(
-          "Woohoo! You just helped save Retro Kydz! Visit Opensea.io to view your randomly generated NFT!"
+          "Woohoo! You just helped save a Retro Kyd!"
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -106,7 +107,7 @@ function App() {
           The Retro Kydz NFT Collection
         </s.TextTitle>
         <s.TextTitle
-              style={{ textAlign: "center", fontSize: 26, fontWeight: "bold" }}
+              style={{ textAlign: "center", fontSize: 16, fontWeight: "bold" }}
             >
             Adopt one (or 5) today. They all need new homes!
          </s.TextTitle>
@@ -119,6 +120,7 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
 
             <StyledImg alt={"example"} src={i1} />
+            <StyledImg alt={"example"} src={i2} />
              <s.TextTitle
               style={{ textAlign: "center", fontSize: 26, fontWeight: "bold" }}
             >
@@ -218,7 +220,7 @@ function App() {
           <s.SpacerSmall />
           <s.TextDescription style={{ textAlign: "center", fontSize: 14 }}>
             // Help with mental health and homelessness #retrokydzToken<p/>*.*.*Launching_Soon*.*.*
-            <s.href>test.com</s.href>
+            test.com
           </s.TextDescription>
         </s.Container>
       </s.Container>
