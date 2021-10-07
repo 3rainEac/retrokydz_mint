@@ -107,7 +107,17 @@ function App() {
           
         </s.TextTitle>
         
-         <s.SpacerMedium />
+
+
+        <s.SpacerMedium />
+        <ResponsiveWrapper flex={1} style={{ padding: 12 }}>
+          
+          
+          <s.Container flex={1} jc={"center"} ai={"center"}>
+
+            <StyledImg alt={"example"} src={i1} />
+            <s.SpacerMedium />
+                     <s.SpacerMedium />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
                   <s.Container ai={"center"} jc={"center"}>
@@ -147,14 +157,6 @@ function App() {
                     </StyledButton>
                   </s.Container>
                 )}
-
-        <s.SpacerMedium />
-        <ResponsiveWrapper flex={1} style={{ padding: 12 }}>
-          
-          
-          <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={i1} />
-            <s.SpacerMedium />
             <s.TextTitle
               style={{ textAlign: "center", fontSize: 26, fontWeight: "bold" }}
             >
