@@ -142,19 +142,7 @@ function App() {
                 </s.TextDescription>
               </>
             ) : (
-              <>
-                <s.TextTitle style={{ textAlign: "center" }}>
-                  1 Retro Kidz NFT costs .055 ETH
-                </s.TextTitle>
-                <s.SpacerXSmall />
-                <s.TextDescription style={{ textAlign: "center" }}>
-                  -excluding gas fee-
-                </s.TextDescription>
-                <s.SpacerLarge />
-                <s.SpacerSmall />
-                <s.TextDescription style={{ textAlign: "center" }}>
-                  {feedback}
-                </s.TextDescription>
+            <>
                 <s.SpacerMedium />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
