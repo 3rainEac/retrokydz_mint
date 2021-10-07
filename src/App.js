@@ -116,6 +116,11 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
 
             <StyledImg alt={"example"} src={i1} />
+             <s.TextTitle
+              style={{ textAlign: "center", fontSize: 26, fontWeight: "bold" }}
+            >
+              {data.totalSupply} of 10,000 have been minted
+            </s.TextTitle>
             <s.SpacerMedium />
                      <s.SpacerMedium />
                 {blockchain.account === "" ||
@@ -157,11 +162,7 @@ function App() {
                     </StyledButton>
                   </s.Container>
                 )}
-            <s.TextTitle
-              style={{ textAlign: "center", fontSize: 26, fontWeight: "bold" }}
-            >
-              {data.totalSupply} of 10,000 have been minted
-            </s.TextTitle>
+
           </s.Container>
 
           
