@@ -104,9 +104,12 @@ function App() {
           style={{ textAlign: "center", fontSize: 36, fontWeight: "bold", fontColor: "ffffff" }}
         >
           The Retro Kydz NFT Collection
-          
         </s.TextTitle>
-        
+        <s.TextTitle
+              style={{ textAlign: "center", fontSize: 26, fontWeight: "bold" }}
+            >
+            Adopt one (or 5) today. They all need new homes!
+         </s.TextTitle>
 
 
         <s.SpacerMedium />
@@ -216,7 +219,9 @@ function App() {
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription style={{ textAlign: "center", fontSize: 14 }}>
-            Help with mental health and homelessness #retrokydzToken<p/>*.*.*Launching_Soon*.*.*
+            // Help with mental health and homelessness #retrokydzToken<p/>*.*.*Launching_Soon*.*.*
+            var str = "Free Web Building Tutorials!";
+            var result = str.link("https://www.w3schools.com");
           </s.TextDescription>
         </s.Container>
       </s.Container>
