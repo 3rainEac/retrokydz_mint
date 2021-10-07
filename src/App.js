@@ -167,8 +167,7 @@ function App() {
                 )}
 
           </s.Container>
-
-          
+ 
           <s.SpacerMedium />
           <s.Container
             flex={1}
@@ -194,8 +193,7 @@ function App() {
               </>
             ) : (
               <>
-               
-               
+
               </>
             )}
           </s.Container>
@@ -220,8 +218,7 @@ function App() {
           <s.SpacerSmall />
           <s.TextDescription style={{ textAlign: "center", fontSize: 14 }}>
             // Help with mental health and homelessness #retrokydzToken<p/>*.*.*Launching_Soon*.*.*
-            var str = "Free Web Building Tutorials!";
-            var result = str.link("https://www.w3schools.com");
+            <s.href>test.com</s.href>
           </s.TextDescription>
         </s.Container>
       </s.Container>
