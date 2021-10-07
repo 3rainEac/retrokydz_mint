@@ -107,43 +107,7 @@ function App() {
           
         </s.TextTitle>
         
-        <s.SpacerMedium />
-        <ResponsiveWrapper flex={1} style={{ padding: 12 }}>
-          <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={i1} />
-            <s.SpacerMedium />
-            <s.TextTitle
-              style={{ textAlign: "center", fontSize: 26, fontWeight: "bold" }}
-            >
-              {data.totalSupply} of 10,000 have been minted
-            </s.TextTitle>
-          </s.Container>
-          <s.SpacerMedium />
-          <s.Container
-            flex={1}
-            jc={"center"}
-            ai={"center"}
-            style={{ backgroundColor: "#000000", padding: 12 }}
-          >
-            {Number(data.totalSupply) == 10000 ? (
-              <>
-                <s.TextTitle style={{ textAlign: "center" }}>
-                  The sale has ended.
-                </s.TextTitle>
-                <s.SpacerSmall />
-                <s.TextDescription style={{ textAlign: "center" }}>
-                  You can still buy and trade Retro Kydz NFTs on{" "}
-                  <a
-                    target={""}
-                    href={"https://opensea.io/collection/retrokydz"}
-                  >
-                    Opensea.io
-                  </a>
-                </s.TextDescription>
-              </>
-            ) : (
-            <>
-                <s.SpacerMedium />
+         <s.SpacerMedium />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
                   <s.Container ai={"center"} jc={"center"}>
@@ -183,9 +147,64 @@ function App() {
                     </StyledButton>
                   </s.Container>
                 )}
+
+        <s.SpacerMedium />
+        <ResponsiveWrapper flex={1} style={{ padding: 12 }}>
+          
+          
+          <s.Container flex={1} jc={"center"} ai={"center"}>
+            <StyledImg alt={"example"} src={i1} />
+            <s.SpacerMedium />
+            <s.TextTitle
+              style={{ textAlign: "center", fontSize: 26, fontWeight: "bold" }}
+            >
+              {data.totalSupply} of 10,000 have been minted
+            </s.TextTitle>
+          </s.Container>
+
+          
+          <s.SpacerMedium />
+          <s.Container
+            flex={1}
+            jc={"center"}
+            ai={"center"}
+            style={{ backgroundColor: "#000000", padding: 12 }}
+          >
+            {Number(data.totalSupply) == 10000 ? (
+              <>
+                <s.TextTitle style={{ textAlign: "center" }}>
+                  The sale has ended.
+                </s.TextTitle>
+                <s.SpacerSmall />
+                <s.TextDescription style={{ textAlign: "center" }}>
+                  You can still buy and trade Retro Kydz NFTs on{" "}
+                  <a
+                    target={""}
+                    href={"https://opensea.io/collection/retrokydz"}
+                  >
+                    Opensea.io
+                  </a>
+                </s.TextDescription>
+              </>
+            ) : (
+              <>
+               
+               
               </>
             )}
           </s.Container>
+           <s.TextTitle style={{ textAlign: "center" }}>
+                  1 Retro Kidz NFT costs .055 ETH
+                </s.TextTitle>
+                <s.SpacerXSmall />
+                <s.TextDescription style={{ textAlign: "center" }}>
+                  -excluding gas fee-
+                </s.TextDescription>
+                <s.SpacerLarge />
+                <s.SpacerSmall />
+                <s.TextDescription style={{ textAlign: "center" }}>
+                  {feedback}
+                </s.TextDescription>
         </ResponsiveWrapper>
         <s.SpacerSmall />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
