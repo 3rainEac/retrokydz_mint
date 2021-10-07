@@ -4,7 +4,7 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
-import i1 from "./assets/images/RetroKydz_logo.png";
+import i1 from "./assets/images/RK_homepage_gif.png";
 
 export const StyledButton = styled.button`
   padding: 10px;
@@ -106,38 +106,7 @@ function App() {
           The Retro Kydz NFT Collection
           
         </s.TextTitle>
-         <s.SpacerSmall />
-                    <StyledButton
-                      onClick={(e) => {
-                        e.preventDefault();
-                        dispatch(connect());
-                        getData();
-                      }}
-                    >
-                      CONNECT WALLET
-                    </StyledButton>
-                    {blockchain.errorMsg !== "" ? (
-                      <>
-                        <s.SpacerSmall />
-                        <s.TextDescription style={{ textAlign: "center" }}>
-                          {blockchain.errorMsg}
-                        </s.TextDescription>
-                      </>
-                    ) : null}
-                  </s.Container>
-                ) : (
-                  <s.Container ai={"center"} jc={"center"} fd={"row"}>
-                    <StyledButton
-                      disabled={claimingNft ? 1 : 0}
-                      onClick={(e) => {
-                        e.preventDefault();
-                        claimNFTs(1);
-                        getData();
-                      }}
-                    >
-                      {claimingNft ? "Busy..." : "Buy 1 NFT"}
-                    </StyledButton>
-                  </s.Container>
+        
         <s.SpacerMedium />
         <ResponsiveWrapper flex={1} style={{ padding: 12 }}>
           <s.Container flex={1} jc={"center"} ai={"center"}>
