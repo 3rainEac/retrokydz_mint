@@ -106,6 +106,38 @@ function App() {
           The Retro Kydz NFT Collection
           
         </s.TextTitle>
+         <s.SpacerSmall />
+                    <StyledButton
+                      onClick={(e) => {
+                        e.preventDefault();
+                        dispatch(connect());
+                        getData();
+                      }}
+                    >
+                      CONNECT WALLET
+                    </StyledButton>
+                    {blockchain.errorMsg !== "" ? (
+                      <>
+                        <s.SpacerSmall />
+                        <s.TextDescription style={{ textAlign: "center" }}>
+                          {blockchain.errorMsg}
+                        </s.TextDescription>
+                      </>
+                    ) : null}
+                  </s.Container>
+                ) : (
+                  <s.Container ai={"center"} jc={"center"} fd={"row"}>
+                    <StyledButton
+                      disabled={claimingNft ? 1 : 0}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        claimNFTs(1);
+                        getData();
+                      }}
+                    >
+                      {claimingNft ? "Busy..." : "Buy 1 NFT"}
+                    </StyledButton>
+                  </s.Container>
         <s.SpacerMedium />
         <ResponsiveWrapper flex={1} style={{ padding: 12 }}>
           <s.Container flex={1} jc={"center"} ai={"center"}>
