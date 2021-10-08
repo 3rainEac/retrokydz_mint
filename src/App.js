@@ -115,8 +115,11 @@ function App() {
 
         <s.SpacerMedium />
         <ResponsiveWrapper flex={1} style={{ padding: 12 }}>
-          
-          
+              <s.TextTitle
+              style={{ textAlign: "center", fontSize: 16, fontWeight: "bold" }}
+            >
+              {data.totalSupply} of 10,000 have been minted
+            </s.TextTitle>        
           <s.Container flex={1} jc={"center"} ai={"center"}>
 
             <StyledImg alt={"example"} src={i1} />
