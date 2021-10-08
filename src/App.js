@@ -219,7 +219,7 @@ function App() {
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription style={{ textAlign: "center", fontSize: 14 }}>
-            // Help with mental health and homelessness #retrokydzToken<p/>*.*.*Launching_Soon*.*.*
+           Every purchase will Help mental health and homelessness #retrokydzToken<p/>*.*.*Launching_Soon*.*.*
             test.com
              <a
                     target={""}
