@@ -120,13 +120,7 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
 
             <StyledImg alt={"example"} src={i1} />
-            <StyledImg alt={"example"} src={i2} />
-             <s.TextTitle
-              style={{ textAlign: "center", fontSize: 26, fontWeight: "bold" }}
-            >
-              {data.totalSupply} of 10,000 have been minted
-            </s.TextTitle>
-            <s.SpacerMedium />
+                        <s.SpacerMedium />
                      <s.SpacerMedium />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
@@ -167,6 +161,13 @@ function App() {
                     </StyledButton>
                   </s.Container>
                 )}
+            <StyledImg alt={"example"} src={i2} />
+             <s.TextTitle
+              style={{ textAlign: "center", fontSize: 26, fontWeight: "bold" }}
+            >
+              {data.totalSupply} of 10,000 have been minted
+            </s.TextTitle>
+
 
           </s.Container>
  
@@ -214,20 +215,27 @@ function App() {
         </ResponsiveWrapper>
         <s.SpacerSmall />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
-          <s.TextDescription style={{ textAlign: "center", fontSize: 18 }}>
-            #% of all proceeds go towards Charity and adding Liquidity to Retro Kydz Token
-          </s.TextDescription>
           <s.SpacerSmall />
-          <s.TextDescription style={{ textAlign: "center", fontSize: 14 }}>
-           Every purchase will Help mental health and homelessness #retrokydzToken<p/>*.*.*Launching_Soon*.*.*
-            test.com
-             <a
-                    target={"_blank"}
-                    href={"https://retrokydz.io"}
-                  >
-                   Home
-                  </a>
-          </s.TextDescription>
+          <s.TextTitle
+              style={{ textAlign: "center", fontSize: 16, fontWeight: "bold" }}
+            >
+           
+             <a target={"_blank"}
+                href={"https://retrokydz.io"}
+              >
+                 Home
+             </a> | 
+             <a target={"_blank"}
+                href={"https://discord.gg/F27J7ytE"}
+              >
+                 Discord
+             </a> | 
+             <a target={"_blank"}
+                href={"TWITTER"}
+              >
+                 Twitter
+             </a>
+          </s.TextTitle>
         </s.Container>
       </s.Container>
     </s.Screen>
