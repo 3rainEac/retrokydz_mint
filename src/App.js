@@ -116,9 +116,9 @@ function App() {
         <s.SpacerMedium />
         <ResponsiveWrapper flex={1} style={{ padding: 12 }}>
               <s.TextTitle
-              style={{ textAlign: "center", fontSize: 16, fontWeight: "bold" }}
+              style={{ textAlign: "center", fontSize: 22, fontWeight: "bold" }}
             >
-              {data.totalSupply} of 10,000 have been minted
+              {data.totalSupply} of 4,000 have been minted
             </s.TextTitle>        
           <s.Container flex={1} jc={"center"} ai={"center"}>
 
@@ -164,13 +164,13 @@ function App() {
                     </StyledButton>
                   </s.Container>
                 )}
-            <StyledImg alt={"example"} src={i2} />
+             
              <s.TextTitle
-              style={{ textAlign: "center", fontSize: 26, fontWeight: "bold" }}
+              style={{ textAlign: "center", fontSize: 14, fontWeight: "bold" }}
             >
-              {data.totalSupply} of 10,000 have been minted
-            </s.TextTitle>
-
+            1 Retro Kidz NFT costs .05 ETH (+ gas)
+         </s.TextTitle>
+            <StyledImg alt={"example"} src={i2} />
 
           </s.Container>
  
@@ -203,13 +203,6 @@ function App() {
               </>
             )}
           </s.Container>
-           <s.TextTitle style={{ textAlign: "center" }}>
-                  1 Retro Kidz NFT costs .055 ETH
-                </s.TextTitle>
-                <s.SpacerXSmall />
-                <s.TextDescription style={{ textAlign: "center" }}>
-                  -excluding gas fee-
-                </s.TextDescription>
                 <s.SpacerLarge />
                 <s.SpacerSmall />
                 <s.TextDescription style={{ textAlign: "center" }}>
@@ -226,17 +219,17 @@ function App() {
              <a target={"_blank"}
                 href={"https://retrokydz.io"}
               >
-                 Home
+                 Home 
              </a> | 
              <a target={"_blank"}
                 href={"https://discord.gg/F27J7ytE"}
               >
-                 Discord
+                  Discord 
              </a> | 
              <a target={"_blank"}
                 href={"TWITTER"}
               >
-                 Twitter
+                 <br/> Twitter
              </a>
           </s.TextTitle>
         </s.Container>
