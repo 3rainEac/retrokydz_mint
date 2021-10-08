@@ -255,13 +255,6 @@ abstract contract Context {
 }
 
 
-/**
- 
- *The Bee Collaborative by TBC Token (TBC)
- *
- * 10,000 Bees flying through decentraland.
-*/
-
 
 
 
