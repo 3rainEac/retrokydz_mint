@@ -5,7 +5,7 @@ import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
 import i1 from "./assets/images/RK_homepage_gif.png";
-import i2 from "./assets/images/RetroKydz_logo.png";
+import i2 from "./assets/images/RetroKydz_logo_white.png";
 
 export const StyledButton = styled.button`
   padding: 10px;
@@ -221,6 +221,12 @@ function App() {
           <s.TextDescription style={{ textAlign: "center", fontSize: 14 }}>
             // Help with mental health and homelessness #retrokydzToken<p/>*.*.*Launching_Soon*.*.*
             test.com
+             <a
+                    target={""}
+                    href={"https://opensea.io/collection/retrokydz"}
+                  >
+                    Opensea.io
+                  </a>
           </s.TextDescription>
         </s.Container>
       </s.Container>
