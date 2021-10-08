@@ -111,8 +111,6 @@ function App() {
             >
             Adopt one (or 5) today. They all need new homes!
          </s.TextTitle>
-
-
         <s.SpacerMedium />
         <ResponsiveWrapper flex={1} style={{ padding: 12 }}>
               <s.TextTitle
@@ -171,9 +169,7 @@ function App() {
             1 Retro Kyd NFT costs .05 ETH (+ gas)
          </s.TextTitle>
             <StyledImg alt={"example"} src={i2} />
-
           </s.Container>
- 
           <s.SpacerMedium />
           <s.Container
             flex={1}
@@ -203,8 +199,6 @@ function App() {
               </>
             )}
           </s.Container>
-                <s.SpacerLarge />
-                <s.SpacerSmall />
                 <s.TextDescription style={{ textAlign: "center" }}>
                   {feedback}
                 </s.TextDescription>
@@ -224,12 +218,10 @@ function App() {
              <a target={"_blank"}
                 href={"https://discord.gg/F27J7ytE"}
               >
-                  Discord 
-             </a> | 
-             <a target={"_blank"}
+                  Discord   
+             </a> | <a target={"_blank"}
                 href={"TWITTER"}
-              >
-                 <br/> Twitter
+              >  Twitter  
              </a>
           </s.TextTitle>
         </s.Container>
