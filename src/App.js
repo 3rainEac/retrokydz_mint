@@ -164,11 +164,11 @@ function App() {
                     </StyledButton>
                   </s.Container>
                 )}
-             
+             <s.SpacerSmall />
              <s.TextTitle
               style={{ textAlign: "center", fontSize: 14, fontWeight: "bold" }}
             >
-            1 Retro Kidz NFT costs .05 ETH (+ gas)
+            1 Retro Kyd NFT costs .05 ETH (+ gas)
          </s.TextTitle>
             <StyledImg alt={"example"} src={i2} />
 
