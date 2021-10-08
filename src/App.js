@@ -222,10 +222,10 @@ function App() {
            Every purchase will Help mental health and homelessness #retrokydzToken<p/>*.*.*Launching_Soon*.*.*
             test.com
              <a
-                    target={""}
-                    href={"https://opensea.io/collection/retrokydz"}
+                    target={"_blank"}
+                    href={"https://retrokydz.io"}
                   >
-                    Opensea.io
+                   Home
                   </a>
           </s.TextDescription>
         </s.Container>
