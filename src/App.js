@@ -81,7 +81,7 @@ function App() {
       })
       .then((receipt) => {
         setFeedback(
-          "Woohoo! You just helped save a Retro Kyd!"
+          "Woohoo! You just adopted a Retro Kyd and saved his life!!"
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -119,7 +119,9 @@ function App() {
               {data.totalSupply} of 4,000 have been minted
             </s.TextTitle>        
           <s.Container flex={1} jc={"center"} ai={"center"}>
-
+              <s.TextDescription style={{ textAlign: "center" }}>
+                  {feedback}
+                </s.TextDescription>
             <StyledImg alt={"example"} src={i1} />
                         <s.SpacerMedium />
                      <s.SpacerMedium />
@@ -199,9 +201,7 @@ function App() {
               </>
             )}
           </s.Container>
-                <s.TextDescription style={{ textAlign: "center" }}>
-                  {feedback}
-                </s.TextDescription>
+
         </ResponsiveWrapper>
         <s.SpacerSmall />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
