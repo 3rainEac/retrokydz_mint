@@ -123,25 +123,23 @@ table {
   border-spacing: 0;
 }
 
-/* @font-face {
+@font-face {
   font-family: "none";
   src: local("coder"),
     url(../assets/fonts/PressStart2P-Regular.woff) format("woff");
-} */
+}
 
 @font-face {
-  font-family: "press2";
-  src: local("press2"),
-    url(../assets/fonts/PressStart2P.ttf) format("ttf");
+  font-family: "pressstart2";
+  src: local("pressstart2"), url(../assets/fonts/PressStart2P.ttf) format("opentype");
 }
 
 body {
   margin: 0;
-  font-family: 'Press Start 2P', cursive;
-  /* font-family: "pressstart2", "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif; */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "pressstart2", "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif; 
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 
 * {
@@ -153,6 +151,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#title { font-family: pressstart2;
 }
 
 body::-webkit-scrollbar {
