@@ -6,7 +6,6 @@ import * as s from "./styles/globalStyles";
 import styled from "styled-components";
 import i1 from "./assets/images/RK_homepage_gif.png";
 import i2 from "./assets/images/RetroKydz_logo_white.png";
-import urlSource from "https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap";
 
 export const StyledButton = styled.button`
   padding: 10px;
@@ -109,7 +108,7 @@ function App() {
         </s.TextTitle>
        
         <s.TextTitle
-              style={{ title: "title", textAlign: "center", fontSize: 16, fontWeight: "bold"}}
+              style={{textAlign: "center", fontSize: 16, fontWeight: "bold"}}
             >
             Adopt one (or 5) today. They all need new homes!
          </s.TextTitle>

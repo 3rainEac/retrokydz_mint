@@ -136,7 +136,7 @@ table {
 
 body {
   margin: 0;
-  font-family: "pressstart2", "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+  font-family: "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif; 
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
@@ -151,9 +151,6 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-#title { font-family: pressstart2;
 }
 
 body::-webkit-scrollbar {
