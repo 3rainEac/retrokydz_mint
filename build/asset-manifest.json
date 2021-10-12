@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/retrokydz_mint/static/css/main.4145f6aa.chunk.css",
-    "main.js": "/retrokydz_mint/static/js/main.6a2bcd34.chunk.js",
-    "main.js.map": "/retrokydz_mint/static/js/main.6a2bcd34.chunk.js.map",
+    "main.css": "/retrokydz_mint/static/css/main.ba71ed1d.chunk.css",
+    "main.js": "/retrokydz_mint/static/js/main.6028c1a2.chunk.js",
+    "main.js.map": "/retrokydz_mint/static/js/main.6028c1a2.chunk.js.map",
     "runtime-main.js": "/retrokydz_mint/static/js/runtime-main.707b4e5a.js",
     "runtime-main.js.map": "/retrokydz_mint/static/js/runtime-main.707b4e5a.js.map",
     "static/js/2.213d8c7f.chunk.js": "/retrokydz_mint/static/js/2.213d8c7f.chunk.js",
@@ -10,16 +10,16 @@
     "static/js/3.a64233a7.chunk.js": "/retrokydz_mint/static/js/3.a64233a7.chunk.js",
     "static/js/3.a64233a7.chunk.js.map": "/retrokydz_mint/static/js/3.a64233a7.chunk.js.map",
     "index.html": "/retrokydz_mint/index.html",
-    "static/css/main.4145f6aa.chunk.css.map": "/retrokydz_mint/static/css/main.4145f6aa.chunk.css.map",
+    "static/css/main.ba71ed1d.chunk.css.map": "/retrokydz_mint/static/css/main.ba71ed1d.chunk.css.map",
     "static/js/2.213d8c7f.chunk.js.LICENSE.txt": "/retrokydz_mint/static/js/2.213d8c7f.chunk.js.LICENSE.txt",
-    "static/media/reset.css": "/retrokydz_mint/static/media/PressStart2P-Regular.f2341734.woff",
+    "static/media/reset.css": "/retrokydz_mint/static/media/PressStart2P.2ebf1a35.ttf",
     "static/media/RK_homepage_gif.b814b273.png": "/retrokydz_mint/static/media/RK_homepage_gif.b814b273.png",
     "static/media/RetroKydz_logo_white.6e784d82.png": "/retrokydz_mint/static/media/RetroKydz_logo_white.6e784d82.png"
   },
   "entrypoints": [
     "static/js/runtime-main.707b4e5a.js",
     "static/js/2.213d8c7f.chunk.js",
-    "static/css/main.4145f6aa.chunk.css",
-    "static/js/main.6a2bcd34.chunk.js"
+    "static/css/main.ba71ed1d.chunk.css",
+    "static/js/main.6028c1a2.chunk.js"
   ]
 }

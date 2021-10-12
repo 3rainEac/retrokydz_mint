@@ -104,7 +104,7 @@ function App() {
         <s.TextTitle
           style={{ fontFamily: "press2", textAlign: "center", fontSize: 36, fontWeight: "bold", fontColor: "ffffff" }}
         >
-          The Retro Kydz NFT Collection
+          {{font = "press2"}}The Retro Kydz NFT Collection
         </s.TextTitle>
         <s.TextTitle
               style={{ textAlign: "center", fontSize: 16, fontWeight: "bold" }}
